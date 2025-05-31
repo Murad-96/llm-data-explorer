@@ -1,0 +1,13 @@
+month,sales,region,customers
+Jan,12000,North,230
+Feb,15000,North,250
+Mar,17000,South,270
+Apr,16000,East,260
+May,18000,East,280
+Jun,20000,West,300
+Jul,22000,North,320
+Aug,21000,South,310
+Sep,19000,South,290
+Oct,23000,West,330
+Nov,24000,West,340
+Dec,25000,East,350
