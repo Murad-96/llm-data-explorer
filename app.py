@@ -11,7 +11,9 @@ from dotenv import load_dotenv
 # Set up OpenAI API key (best to load from env or st.secrets)
 import os
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+# Try st.secrets first, fallback to local .env for local dev
+#OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # Initialize LLM
 llm = OpenAI(temperature=0, openai_api_key=OPENAI_API_KEY)
