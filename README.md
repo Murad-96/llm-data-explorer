@@ -11,6 +11,7 @@ Try it live → https://llm-data-explorer.streamlit.app 🚀
 * Basic
 * Data Analyst
 * Business User  
+
 ✅ Save and download chat history as JSON  
 ✅ Download generated charts as PNG  
 ✅ Optional REST API: /summarize endpoint (FastAPI)  
