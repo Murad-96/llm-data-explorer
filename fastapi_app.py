@@ -23,7 +23,7 @@ async def summarize(file: UploadFile = File(...)):
 
     # Create agent
     agent = create_pandas_dataframe_agent(llm, df, verbose=True, 
-                                          max_iterations=15, 
+                                          max_iterations=20, 
                                           allow_dangerous_code=True)
 
     # Use fixed summary prompt (you can also add variants)
